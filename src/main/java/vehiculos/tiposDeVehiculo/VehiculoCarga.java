@@ -16,7 +16,7 @@ public class VehiculoCarga extends Vehiculo implements Carga {
 
     @Override
     public void iniciarMarcha() {
-        System.out.println("El vehiculo a iniciado la marcha acelerando a: "+this.aceleracionBase);
+        System.out.println("El vehiculo tipo carga a iniciado la marcha acelerando a: "+this.aceleracionBase);
     }
 
     @Override
