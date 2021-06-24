@@ -11,5 +11,5 @@ package vehiculos.interfaces;
  */
 public interface Carrera extends InterfazVehiculo {
     
-    void aplicarTurbo();
+    double aplicarTurbo();
 }
