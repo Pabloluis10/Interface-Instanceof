@@ -9,6 +9,7 @@ package vehiculos.interfaces;
  *
  * @author pabloluis
  */
-public interface Carrera {
+public interface Carrera extends InterfazVehiculo {
     
+    void aplicarTurbo();
 }
